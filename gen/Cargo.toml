@@ -1,0 +1,15 @@
+[package]
+name = "gen"
+version = "0.1.0"
+authors = ["Pat Hickey <phickey@fastly.com>"]
+edition = "2018"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+quote = "1.0.2"
+proc-macro2 = "1.0.6"
+heck = "0.3.1"
+witx = "0.7.0"
+anyhow = "1"

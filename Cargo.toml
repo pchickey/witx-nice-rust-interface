@@ -1,0 +1,13 @@
+[package]
+name = "witx-nice-rust-interface"
+version = "0.1.0"
+authors = ["Pat Hickey <phickey@fastly.com>"]
+edition = "2018"
+
+[lib]
+name = "witx_nice_rust_interface"
+crate-type = ["rlib", "staticlib", "cdylib"]
+
+[dependencies]
+thiserror = "1"
+gen = { path = "gen" }
